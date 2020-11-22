@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Что такое Jekyller?
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+Это штука, которая может поднять блог на Jekyll без проблем.
 
-## Commands
+## Как этим пользоваться?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Всё очень просто: форкайте этот репозиторий и переходите по https://YOUR-USERNAME.github.io/jekyller. Там будет блог. Если же вы переименовали ваш репозиторий, то jekyller замените на имя вашего репозитория.
 
-## Project layout
+## Я переименовал(а) свой форкнутый репозиторий и не могу получить доступ к страницам и постам
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Зайдите в `_config.yml` и в графе `baseurl` замените `/jekyller` на `/названиерепозитория`. Если же вы переименовали репозиторий под Github Pages, то сотрите содержимое в кавычках, но не стирайте сами кавычки
